@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedFusion | Futuristic AI Detection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#" class="logo">
+            <img src="../logo.png" alt="MedFusion Logo">
+            <span>MedFusion</span>
+        </a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#demo">Demo</a>
+        </div>
+        <a href="#demo" class="btn btn-primary">Try Now</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Precision Diagnosis through AI Fusion</h1>
+            <p>Empowering healthcare with futuristic deep-learning detection.</p>
+            <div class="cta-group">
+                <a href="#demo" class="btn btn-primary">Start Analysis</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <img src="../hero.png" alt="Medical AI Visual">
+        </div>
+    </section>
+
+    <section class="section" id="features">
+        <div class="features-grid">
+            <div class="feature-card glass">
+                <i class="fa-solid fa-brain feature-icon"></i>
+                <h3>Neural Precision</h3>
+                <p>Advanced CNN architecture for maximum diagnostic sensitivity.</p>
+            </div>
+            <div class="feature-card glass">
+                <i class="fa-solid fa-bolt feature-icon"></i>
+                <h3>Fast Inference</h3>
+                <p>Results delivered in milliseconds via optimized models.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section glass" id="demo" style="margin: 0 10%;">
+        <div class="upload-box" id="drop-zone">
+            <i class="fa-solid fa-cloud-arrow-up" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+            <p>Drag & Drop Chest X-Ray</p>
+            <input type="file" id="file-input" hidden>
+        </div>
+        <div id="result-box" style="margin-top: 2rem; display: none; text-align: center;">
+            <h3 id="result-text">Analyzing...</h3>
+            <div id="confidence" style="color: var(--primary);"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MedFusion Futuristic AI</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
