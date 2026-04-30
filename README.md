@@ -212,7 +212,8 @@ It should not be used as a substitute for professional medical advice or diagnos
 ---
 
 ## Author
-Your Name
+Gadi Raghunadha Karthikeya
+Kona Yeswanth
 
 ---
 
