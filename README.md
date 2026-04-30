@@ -7,6 +7,16 @@ This project demonstrates how machine learning can be applied to healthcare prob
 
 ---
 
+## Dataset
+
+This project uses publicly available datasets from Kaggle.
+
+1. Chest X-Ray Pneumonia Dataset  
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
+2. Chest X-Ray Masks and Labels  
+https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels
+
 ## Objective
 The primary objective of this project is to build a system that:
 - Detects pneumonia from chest X-ray images
